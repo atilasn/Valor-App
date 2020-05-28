@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:jk/Pages/HomePage.dart';
+import 'package:jk/Pages/Pre_Cadastro.dart';
 
 class Loguin_Home extends StatefulWidget {
   final _formaKey = GlobalKey<FormState>();
@@ -84,7 +86,12 @@ class _Loguin_HomeState extends State<Loguin_Home> {
                     child: (Column(
                       children: <Widget>[
                         FlatButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Pre_Cadastro()));
+                          },
                           child: Text("Pré Cadastro",
                           style: TextStyle(color: Colors.red, fontSize: 13),),
                         ),
@@ -99,7 +106,12 @@ class _Loguin_HomeState extends State<Loguin_Home> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       RaisedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => HomePage()));
+                        },
                         child: Text(
                           'Entrar',
                           style: TextStyle(color: Colors.white, fontSize: 20),
