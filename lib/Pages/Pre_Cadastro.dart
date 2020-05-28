@@ -32,7 +32,7 @@ class _Pre_CadastroState extends State<Pre_Cadastro> {
                         top: 20,
                         left: 1,
                       ),
-                      child: Text('Pre Cadastro',
+                      child: Text('Pré Cadastro',
                           style: TextStyle(
                               fontSize: 26.0,
                               fontWeight: FontWeight.bold,
