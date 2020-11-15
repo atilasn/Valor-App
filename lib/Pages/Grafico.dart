@@ -10,13 +10,9 @@ class _Home_Graficos extends State<Home_Graficos> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
-        backgroundColor: Colors.grey,
-        title: Image.asset(
-          "assets/jk.png",
-          height: 220,
-          width: 220,
-        ),
+          centerTitle: true,
+          backgroundColor: Colors.black,
+          title: Text ("ASN Tecnologia")
       ),
       body: Container(
         margin: EdgeInsets.only(left: 10, right: 10),
@@ -24,11 +20,11 @@ class _Home_Graficos extends State<Home_Graficos> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              Icon(Icons.perm_identity, size: 50, color: Colors.blueAccent),
+              SizedBox(height: 50),
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Text(
-                  'Alunos Matriculados : 434',
+                  'asntecnologia@ans.com.br',
                   style: TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,
@@ -36,11 +32,10 @@ class _Home_Graficos extends State<Home_Graficos> {
                   ),
                 ),
               ),
-              Icon(Icons.perm_identity, size: 50, color: Colors.red),
               Padding(
                 padding: const EdgeInsets.all(20),
                 child: Text(
-                  'Alunos com Matriculas Tracadas : 78',
+                  'Telefone:(61)98234-7337',
                   style: TextStyle(
                     fontSize: 22.0,
                     fontWeight: FontWeight.bold,

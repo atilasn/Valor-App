@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:jk/Pages/Loguin.dart';
+
+import 'Pages/HomePage.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -22,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => Loguin_Home(),
+          builder: (context) => HomePage(),
         ),
       );
     });
@@ -31,15 +32,19 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.only(top: 1),
           child: Container(
-            child: Image.asset(
-              "assets/jk.png",
-              height: 600,
-              width: 600,
+            child:
+            Text(
+              'ASN Tecnologia',
+              style: TextStyle(
+                fontSize: 45.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
             ),
           ),
         ),

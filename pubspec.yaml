@@ -27,7 +27,11 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.3
+  cupertino_icons: ^0.1.2
+  url_launcher: ^5.4.2
+  flutter_launcher_icons: "^0.7.3"
+
+
 
 dev_dependencies:
   flutter_test:
@@ -76,8 +80,40 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 
   assets:
-    - assets/jk.png
     - assets/pessoas.png
     - assets/finan.png
     - assets/graf.png
     - assets/grafico.png
+    - assets/fundo.jpg
+    - assets/circulo.jpg
+    - assets/mundo.jpg
+    - assets/tec.jpg
+    - assets/black.jpg
+    - assets/fundo1.jpg
+    - assets/teste.png
+    - assets/shard.png
+    - assets/orc.png
+    - assets/rede social 2.png
+    - assets/contatos.png
+    - assets/ORÇAMENTO.png
+    - assets/android & Ios.png
+    - assets/android-and-ios-logo.jpg
+    - assets/Apple-unleashes-iOS-11-beta-4-on-Developers.jpg
+    - assets/android.jpg
+    - assets/orçamentos01.png
+    - assets/entre em contato.png
+    - assets/android & ios.jpg
+    - assets/interface simples.png
+    - assets/interce Personalidade.png
+    - assets/Formulario.png
+    - assets/Web.png
+    - assets/Perfil.png
+    - assets/painel.png
+    - assets/idioma.png
+    - assets/Valor.png
+    - assets/facebook.png
+    - assets/twitter.png
+    - assets/Twitter_logo_2012.svg.png
+    - assets/instal.png
+    - assets/link.jpg
+    - assets/Financeiro.png
