@@ -98,11 +98,11 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 Padding(
                   padding: const EdgeInsets.only(
-                    top: 20,
+                    top: 40,
                     right: 30,
                   ),
                   child: Text(
-                    'Serviços',
+                    '   Serviços',
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
@@ -120,8 +120,8 @@ class _HomePageState extends State<HomePage> {
                       child: FlatButton(
                         child: Image.asset(
                           "assets/orçamentos01.png",
-                          height: 135,
-                          width: 120,
+                          height: 200,
+                          width: 180,
                         ),
                         onPressed: () {
                           Navigator.push(
@@ -131,13 +131,38 @@ class _HomePageState extends State<HomePage> {
                         },
                       ),
                     ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: <Widget>[
                     Padding(
-                      padding: const EdgeInsets.all(1),
+                      padding: const EdgeInsets.only(
+                        right: 30,
+                      ),
+                      child: Text(
+                        'Orçamentos',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blueGrey,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: <Widget>[
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        top: 2,
+                      ),
                       child: FlatButton(
                         child: Image.asset(
                           "assets/entre em contato.png",
                           height: 200,
-                          width: 140,
+                          width: 220,
                         ),
                         onPressed: () {
                           Navigator.push(
@@ -157,19 +182,6 @@ class _HomePageState extends State<HomePage> {
                         right: 30,
                       ),
                       child: Text(
-                        'Orçamento',
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.blueGrey,
-                        ),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(
-                        right: 30,
-                      ),
-                      child: Text(
                         'Contatos',
                         style: TextStyle(
                           fontSize: 20,
@@ -178,104 +190,6 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ),
                     ),
-                  ],
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(
-                    top: 60,
-                    right: 30,
-                  ),
-                  child: Text(
-                    '  Rede Social',
-                    style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.blueGrey,
-                    ),
-                  ),
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: <Widget>[
-                    Padding(
-                        padding: const EdgeInsets.all(2),
-                        child: FlatButton(
-                          onPressed: () async {
-                            const url = 'https://web.facebook.com/?_rdc=1&_rdr';
-                            if (await canLaunch(url)) {
-                              await launch(url);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          child: Image.asset(
-                            "assets/facebook.png",
-                            height: 60,
-                            width: 60,
-                          ),
-                        )),
-                    Padding(
-                        padding: const EdgeInsets.all(2),
-                        child: FlatButton(
-                          onPressed: () async {
-                            const url = 'https://twitter.com/home?lang=e';
-                            if (await canLaunch(url)) {
-                              await launch(url);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          child: Image.asset(
-                            "assets/Twitter_logo_2012.svg.png",
-                            height: 60,
-                            width: 60,
-                          ),
-                        )),
-                  ],
-                ),
-                SizedBox(
-                  height: 30,
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: <Widget>[
-                    Padding(
-                        padding: const EdgeInsets.all(2),
-                        child: FlatButton(
-                          onPressed: () async {
-                            const url = 'https://www.instagram.com/atilasn1/';
-                            if (await canLaunch(url)) {
-                              await launch(url);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          child: Image.asset(
-                            "assets/instal.png",
-                            height: 60,
-                            width: 60,
-                          ),
-                        )),
-                    Padding(
-                        padding: const EdgeInsets.all(2),
-                        child: FlatButton(
-                          onPressed: () async {
-                            const url = 'https://www.linkedin.com/feed/';
-                            if (await canLaunch(url)) {
-                              await launch(url);
-                            } else {
-                              throw 'Could not launch $url';
-                            }
-                          },
-                          child: Image.asset(
-                            "assets/link.jpg",
-                            height: 60,
-                            width: 60,
-                          ),
-                        )),
                   ],
                 ),
               ],

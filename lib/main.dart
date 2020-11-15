@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
           child: Container(
             child:
             Text(
-              'ASN Tecnologia',
+              'Valor App',
               style: TextStyle(
                 fontSize: 45.0,
                 fontWeight: FontWeight.bold,

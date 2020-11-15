@@ -80,23 +80,6 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 
   assets:
-    - assets/pessoas.png
-    - assets/finan.png
-    - assets/graf.png
-    - assets/grafico.png
-    - assets/fundo.jpg
-    - assets/circulo.jpg
-    - assets/mundo.jpg
-    - assets/tec.jpg
-    - assets/black.jpg
-    - assets/fundo1.jpg
-    - assets/teste.png
-    - assets/shard.png
-    - assets/orc.png
-    - assets/rede social 2.png
-    - assets/contatos.png
-    - assets/ORÇAMENTO.png
-    - assets/android & Ios.png
     - assets/android-and-ios-logo.jpg
     - assets/Apple-unleashes-iOS-11-beta-4-on-Developers.jpg
     - assets/android.jpg
